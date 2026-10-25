@@ -8,6 +8,7 @@ pipeline {
     environment {
         CI = 'true'
         HOME = '.'
+        NODE_OPTIONS = '--openssl-legacy-provider'
     }
     stages {
         stage('Build') {
