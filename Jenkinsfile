@@ -21,12 +21,5 @@ pipeline {
                 sh './jenkins/scripts/test.sh'
             }
         }
-        // stage('Deploy') {
-        //     steps {
-        //         sh 'npm run build'
-        //         sh 'JENKINS_NODE_COOKIE=dontKillMe nohup npx --yes serve -s build -l 3003 > serve.log 2>&1 &'
-        //         sh 'sleep 5 && node -e "fetch(\'http://localhost:3003\').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))" && echo "Deploy OK: app up di port 3003 (host: 3003)"'
-        //     }
-        // }
     }
 }
