@@ -18,10 +18,10 @@ runner Jest (https://facebook.github.io/jest/).
 > react-scripts test --env=jsdom
 
 PASS src/App.test.js
-  ✓ renders without crashing (16 ms)
+  ✓ renders without crashing (15 ms)
 
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        1.115 s
+Time:        1.122 s
 Ran all test suites.
